@@ -17,4 +17,10 @@ The start is already done! This text is written in a web based editor on GitHub 
 
 ## Where to Execute?
 
-Editing some code can be done everywhere, even local on an iPad. However, we need to execute stuff. And compilation and simulation of hardware description is (currently) not supported on the iPad. Therefore, we move to the cloud: 
+Editing some code can be done everywhere, even local on an iPad. However, we need to execute stuff. And compilation and simulation of hardware description is (currently) not supported on the iPad. Therefore, we move to the cloud: https://c9.io/ provides a Ubuntu based development environment as cloud serve. Simply cool!
+
+Befor setting up a project in Cloud9, we need to decide on the tools. Within this experiment we wil use [Chisel](https://chisel.eecs.berkeley.edu), a modern hardware construction language. The setup is very minimal, as we just need the magic tool 'sbt' tool download the Scala compiler and the Chisel library.
+
+So let's get started:
+
+ * Register at Cloud9
